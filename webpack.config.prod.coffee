@@ -25,6 +25,7 @@ module.exports =
       name: 'vendor', filename: 'vendor.bundle.js'
     new ExtractTextPlugin filename: 'app.css', allChunks: true
     new webpack.DefinePlugin \
+    (
       'process.env.NODE_ENV': JSON.stringify('production')
     )
   ]
