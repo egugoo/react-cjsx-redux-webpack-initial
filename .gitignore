@@ -1,0 +1,5 @@
+node_modules/
+dst/*
+!dst/index.html
+!dst/assets
+npm-debug.log
